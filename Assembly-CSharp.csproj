@@ -53,25 +53,46 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BossAudioScript.cs" />
-     <Compile Include="Assets\EnemyDeathAudioScript.cs" />
+     <Compile Include="Assets\SceneTransitionScript.cs" />
      <Compile Include="Assets\Scripts\CameraScript\CameraFollowScript.cs" />
      <Compile Include="Assets\Scripts\Enemies\Boss\BossScript.cs" />
      <Compile Include="Assets\Scripts\Enemies\Boss\ChaseBehaviour.cs" />
      <Compile Include="Assets\Scripts\Enemies\Boss\WalkBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Enemies\BossAudioScript.cs" />
+     <Compile Include="Assets\Scripts\Enemies\EnemyDeathAudioScript.cs" />
      <Compile Include="Assets\Scripts\Enemies\EnemyHealthScript.cs" />
      <Compile Include="Assets\Scripts\Enemies\MeleeEnemy\MeleeEnemy.cs" />
      <Compile Include="Assets\Scripts\Enemies\RangedEnemy\RangedEnemy.cs" />
      <Compile Include="Assets\Scripts\Enemies\RangedEnemy\RangedEnemyBullet.cs" />
      <Compile Include="Assets\Scripts\Enemies\SummonerEnemy\SummonerScript.cs" />
+     <Compile Include="Assets\Scripts\GeneralAppScript.cs" />
      <Compile Include="Assets\Scripts\GeneralScripts\AudioObjectDistroyer.cs" />
      <Compile Include="Assets\Scripts\GeneralScripts\CursorFollow.cs" />
+     <Compile Include="Assets\Scripts\GeneralScripts\MouseImageScript.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerHealthPickup.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\WaveSpawner\WaveSpawner.cs" />
      <Compile Include="Assets\Scripts\WeaponProjectiles\WeaponProjectileMove.cs" />
      <Compile Include="Assets\Scripts\Weapons\Weapon1_MouseMove.cs" />
      <Compile Include="Assets\Scripts\Weapons\WeaponPickup.cs" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/media/ahsan/linuxdata/work/unity-projects/Unity 2d Game CP/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>

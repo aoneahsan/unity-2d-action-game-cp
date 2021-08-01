@@ -8,6 +8,7 @@ TagManager:
   - Weapon
   - PatrolPoint
   - Boss
+  - BossHelthBar
   layers:
   - Default
   - TransparentFX

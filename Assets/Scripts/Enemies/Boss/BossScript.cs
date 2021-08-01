@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BossScript : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class BossScript : MonoBehaviour
 
     private Animator animator;
 
+    private GameObject bossHealthBar;
     private Slider bossHealthBarSlider;
 
     // Start is called before the first frame update
