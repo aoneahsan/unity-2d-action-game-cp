@@ -13,15 +13,15 @@ public class SceneTransitionScript : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    public void LoadScene(string sceneName)
+    public void LoadScene(int sceneNo)
     {
-        StartCoroutine(SceneTransition(sceneName));
+        StartCoroutine(Transition(sceneNo));
     }
 
-    IEnumerator SceneTransition(string sceneName)
+    IEnumerator Transition(int sceneNo)
     {
         animator.SetTrigger("end");
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(sceneNo);
     }
 }

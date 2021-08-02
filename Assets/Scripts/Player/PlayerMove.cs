@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -67,6 +68,9 @@ public class PlayerMove : MonoBehaviour
         if (health <= 0)
         {
             Destroy (gameObject);
+
+            // after player death load lose scene
+            SceneManager.LoadScene(4);
         }
     }
 
@@ -96,9 +100,9 @@ public class PlayerMove : MonoBehaviour
 
     public void Heal(float healthAmount)
     {
-        if (health + healthAmount > 5)
+        if (health + healthAmount > 10)
         {
-            health = 5;
+            health = 10;
         }
         else
         {

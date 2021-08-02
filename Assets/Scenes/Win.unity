@@ -426,7 +426,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 877848801}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ee1af0eae20fa7bda6b2344417b7996, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d0e70d13dd6cb94e9aca2debd02ec51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &877848804
@@ -1010,7 +1010,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1278458793}
         m_MethodName: LoadScene
-        m_Mode: 5
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1170,11 +1170,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1278458793}
         m_MethodName: LoadScene
-        m_Mode: 5
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: "Game\x13\x13\x13\x13"
           m_BoolArgument: 0

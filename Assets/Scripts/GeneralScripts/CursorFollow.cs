@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class CursorFollow : MonoBehaviour
 {
-    // Start is called before the first frame update
+    void Awake()
+    {
+        Cursor.visible = false;
+    }
+
     void Start()
     {
         Cursor.visible = false;
@@ -13,6 +17,7 @@ public class CursorFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Cursor.visible = false;
         transform.position = Input.mousePosition;
     }
 }

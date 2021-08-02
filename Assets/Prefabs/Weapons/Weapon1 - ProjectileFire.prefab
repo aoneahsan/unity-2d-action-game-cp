@@ -93,11 +93,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4278c81155ef3c91cb7220f757beb1cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
-  timeToDestroy: 1.8
+  speed: 65
+  timeToDestroy: 1
   explosion: {fileID: 4833702378052030352, guid: b6485f86636af88ed8f2f13b64fad7c2,
     type: 3}
-  damage: 1
+  damage: 1.5
   fireSound: {fileID: 6948521355786397553, guid: 33c171891236da80387e59663d3a729b,
     type: 3}
 --- !u!61 &61787821749770088

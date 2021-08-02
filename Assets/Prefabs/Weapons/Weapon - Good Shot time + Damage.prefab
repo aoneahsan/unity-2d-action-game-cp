@@ -126,4 +126,4 @@ MonoBehaviour:
   WeaponProjectile: {fileID: 5293490924881312050, guid: 9da4e09e1ebfb569fa858d87ccc64ad1,
     type: 3}
   shotPoint: {fileID: 4470034645411290963}
-  timeBetweenShots: 0.65
+  timeBetweenShots: 0.5

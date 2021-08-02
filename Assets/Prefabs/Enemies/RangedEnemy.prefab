@@ -370,13 +370,14 @@ MonoBehaviour:
   timeBetweenAttachs: 4
   stopDistance: 25
   attackSpeed: 0
-  weaponPickupChance: 12
-  healthPickupChance: 8
+  weaponPickupChance: 65
+  healthPickupChance: 70
   weaponPickups:
   - {fileID: 1781375786435814727, guid: 0805da9bd69d151d2a87268d0dd154b4, type: 3}
-  - {fileID: 1781375786435814727, guid: 0805da9bd69d151d2a87268d0dd154b4, type: 3}
-  - {fileID: 1781375786435814727, guid: 0805da9bd69d151d2a87268d0dd154b4, type: 3}
+  - {fileID: 8156696037976892845, guid: 65680211981b7262c8d209a57f104a64, type: 3}
+  - {fileID: 1662839738581736440, guid: 188bbfc96fa56bd83b252ee63e2d7e1b, type: 3}
   - {fileID: 8871201583222398840, guid: 63ea671a9b2493ced84216cd6b09467d, type: 3}
+  - {fileID: 1781375786435814727, guid: 0805da9bd69d151d2a87268d0dd154b4, type: 3}
   healthPickup: {fileID: 8480854446659076242, guid: 9970763d29ca7fe4f8dba87d9bc30766,
     type: 3}
   playerPosition: {fileID: 0}

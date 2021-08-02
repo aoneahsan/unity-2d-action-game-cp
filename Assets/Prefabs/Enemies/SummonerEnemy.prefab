@@ -194,29 +194,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f53dbdf4c5ed2fc2bec02023b5d4b72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 4
+  health: 2
   damage: 1
-  speed: 10
-  timeBetweenAttachs: 9
-  stopDistance: 3
-  attackSpeed: 4
-  weaponPickupChance: 14
-  healthPickupChance: 10
+  speed: 20
+  timeBetweenAttachs: 2
+  stopDistance: 10
+  attackSpeed: 10
+  weaponPickupChance: 50
+  healthPickupChance: 50
   weaponPickups:
   - {fileID: 1781375786435814727, guid: 0805da9bd69d151d2a87268d0dd154b4, type: 3}
-  - {fileID: 1781375786435814727, guid: 0805da9bd69d151d2a87268d0dd154b4, type: 3}
-  - {fileID: 1781375786435814727, guid: 0805da9bd69d151d2a87268d0dd154b4, type: 3}
-  - {fileID: 1781375786435814727, guid: 0805da9bd69d151d2a87268d0dd154b4, type: 3}
-  - {fileID: 8156696037976892845, guid: 65680211981b7262c8d209a57f104a64, type: 3}
-  - {fileID: 1781375786435814727, guid: 0805da9bd69d151d2a87268d0dd154b4, type: 3}
-  - {fileID: 1781375786435814727, guid: 0805da9bd69d151d2a87268d0dd154b4, type: 3}
+  - {fileID: 8871201583222398840, guid: 63ea671a9b2493ced84216cd6b09467d, type: 3}
   - {fileID: 1662839738581736440, guid: 188bbfc96fa56bd83b252ee63e2d7e1b, type: 3}
   - {fileID: 1781375786435814727, guid: 0805da9bd69d151d2a87268d0dd154b4, type: 3}
-  - {fileID: 1781375786435814727, guid: 0805da9bd69d151d2a87268d0dd154b4, type: 3}
-  - {fileID: 8871201583222398840, guid: 63ea671a9b2493ced84216cd6b09467d, type: 3}
-  - {fileID: 1781375786435814727, guid: 0805da9bd69d151d2a87268d0dd154b4, type: 3}
-  - {fileID: 1781375786435814727, guid: 0805da9bd69d151d2a87268d0dd154b4, type: 3}
-  - {fileID: 1781375786435814727, guid: 0805da9bd69d151d2a87268d0dd154b4, type: 3}
+  - {fileID: 8156696037976892845, guid: 65680211981b7262c8d209a57f104a64, type: 3}
+  - {fileID: 1662839738581736440, guid: 188bbfc96fa56bd83b252ee63e2d7e1b, type: 3}
   healthPickup: {fileID: 8480854446659076242, guid: 9970763d29ca7fe4f8dba87d9bc30766,
     type: 3}
   playerPosition: {fileID: 0}
@@ -228,7 +220,7 @@ MonoBehaviour:
   minY: -23
   maxY: 23.84
   timeBetweenSummons: 5
-  EnemiesToSummonBetween: 3
+  EnemiesToSummonBetween: 2
   enemyToSummon: {fileID: 1741890184858112920, guid: a72131440cf47a476a79fea37e4533fe,
     type: 3}
 --- !u!1 &8472907273282854870

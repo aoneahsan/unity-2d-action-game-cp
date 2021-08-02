@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BossScript : MonoBehaviour
 {
@@ -26,6 +27,7 @@ public class BossScript : MonoBehaviour
     private Animator animator;
 
     private GameObject bossHealthBar;
+
     private Slider bossHealthBarSlider;
 
     // Start is called before the first frame update
@@ -94,6 +96,9 @@ public class BossScript : MonoBehaviour
 
             // Delete game object of this current enemy
             Destroy (gameObject);
+
+            // after boss death load win scene
+            SceneManager.LoadScene(3);
         }
     }
 
