@@ -1,12 +1,18 @@
 fileFormatVersion: 2
 guid: a6507910101a80deda05bab3be2c6fcd
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: weapon1_0
-    21300002: weapon1_1
-    21300004: weapon1_2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: weapon1_0
+  - first:
+      213: 21300002
+    second: weapon1_1
+  - first:
+      213: 21300004
+    second: weapon1_2
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -26,6 +32,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -34,9 +42,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -57,11 +65,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -72,6 +84,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -91,6 +104,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a9d79dd0a78da9530bb6706da46d18b3
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -111,6 +125,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 84c0b0a6f861feb9bb7ddecf9e8d4406
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -131,6 +146,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: af303b87fe14adcdd89fb0431777cd8b
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -139,10 +155,16 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 30a08b53b467bd7baa38e12cfa2c1c8d
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      weapon1_0: 21300000
+      weapon1_1: 21300002
+      weapon1_2: 21300004
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
